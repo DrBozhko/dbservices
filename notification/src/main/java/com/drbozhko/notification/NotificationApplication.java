@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(
         scanBasePackages = {
-                "com.drbozhko.notification"
+                "com.drbozhko.notification",
+                "com.drbozhko.amqp"
         }
 )
 public class NotificationApplication {
